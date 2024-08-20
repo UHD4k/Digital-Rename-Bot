@@ -10,27 +10,27 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # digital_botz client config
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID = os.environ.get("API_ID", "24482734")
+    API_HASH = os.environ.get("API_HASH", "5ccf6a58166cc047a7eba01c5dbc930c")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6990797396:AAED6pqha6Ip-Xj2yxAgv6HIrQHf2kLRF1s") 
 
     # premium account string session required 😢 
-    STRING_SESSION = os.environ.get("STRING_SESSION", "")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "BQAr6DXOdBmTsbyjR1Pfl0Qx3EW_J0o5ZT8QYXl5yBT8VH7fLZfC6XnD4TEVzOd7ElpaKDG-ABzolJlm_LvLg3C0e0AoLetB5GDI0_RIsoW1P0B4UuU8REAf1wUiYwA7IaYsZsqJvi2dbAUtkE9Yu5Sx8vULZqcl4LKYbBQqwyDm2oaSHeKWcTlqokDoiNCap4Knupo_fb15aUYuv_Bto8v9OVwpjWsHlahcjlfa0DFpQsptjsyVprTpRjp4-sUB3Yk6Hu8rW15Z1snCb1UPMLlo8_5-NISaXwgrrQ_8vwjOXeLDJYE1L3c8TMKtCFcOT5S6zOLWaLxJH60HC7s6PMrBAAAAATs3F8EA")
     
     # database config
     DB_NAME = os.environ.get("DB_NAME","Digital_Rename_Bot")     
-    DB_URL = os.environ.get("DB_URL","")
+    DB_URL = os.environ.get("DB_URL","mongodb+srv://javofe3620:n6Fdbl8cR2SZENc1@cluster0.riytn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
-    RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/b746aadfe59959eb76f59.jpg")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6705898491').split()]
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002123429361"))
+    RKN_PIC = os.environ.get("RKN_PIC", "https://graph.org/file/f4392434260076e0d93a6.jpg")
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1790775725').split()]
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001891110437"))
 
     #force subs
     try:
-        FORCE_SUB = int(os.environ.get("FORCE_SUB", "")) 
+        FORCE_SUB = int(os.environ.get("FORCE_SUB", "TamilxLinks")) 
     except:
-        FORCE_SUB = os.environ.get("FORCE_SUB", "Digital_Botz")
+        FORCE_SUB = os.environ.get("FORCE_SUB", "RoyalxMoviesOfficial")
         
     # wes response configuration     
     PORT = int(os.environ.get("PORT", "8080"))
@@ -45,7 +45,7 @@ class rkn(object):
 𝚈ᴏᴜ 𝙲ᴀɴ 𝙰ʟsᴏ 𝙲ᴏɴᴠᴇʀᴛ 𝚅ɪᴅᴇᴏ 𝚃ᴏ 𝙵ɪʟᴇ & 𝙵ɪʟᴇ 𝚃ᴏ 𝚅ɪᴅᴇᴏ
 𝚃𝙷𝙸𝚂 𝙱𝙾𝚃 𝙰𝙻𝚂𝙾 𝚂𝚄𝙿𝙿𝙾𝚁𝚃𝚂 𝙲𝚄𝚂𝚃𝙾𝙼 𝚃𝙷𝚄𝙼𝙱𝙽𝙰𝙸𝙻 𝙰𝙽𝙳 𝙲𝚄𝚂𝚃𝙾𝙼 𝙲𝙰𝙿𝚃𝙸𝙾𝙽
 
-Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @Digital_Botz 💞</b>"""
+Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @PMIxOfficials 💞</b>"""
 
     ABOUT_TXT = """<b>╭───────────⍟
 ├🤖 ᴍy ɴᴀᴍᴇ : {}
