@@ -25,7 +25,7 @@ class Database:
             prefix=None,
             suffix=None,
             metadata_mode=False,
-            metadata_code=""" -map 0 -c:s copy -c:a copy -c:v copy -metadata title="Powered By:- @Rkn_Bots" -metadata author="@RknDeveloper" -metadata:s:s title="Subtitled By :- @Rkn_Bots" -metadata:s:a title="By :- @RknDeveloper" -metadata:s:v title="By:- @Rkn_Bots" """,
+            metadata_code=""" -map 0 -c:s copy -c:a copy -c:v copy -metadata title="Powered By:- @RoyalxMoviesOfficial" -metadata author="@TamilxLinks" -metadata:s:s title="Subtitled By :- @UHD4KxMovies" -metadata:s:a title="By :- @RoyalxMoviesOfficial" -metadata:s:v title="By:- @TamilxLinks" """,
             expiry_time=None,
             has_free_trial=False,
             ban_status=dict(
