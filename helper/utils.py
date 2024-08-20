@@ -38,7 +38,7 @@ async def progress_for_pyrogram(current, total, ud_type, message, start):
         try:
             await message.edit(
                 text=f"{ud_type}\n\n{tmp}",               
-                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("✖️ 𝙲𝙰𝙽𝙲𝙴𝙻 ✖️", callback_data="close")]])                                               
+                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("✖️ Cᴀɴᴄᴇʟ ✖️", callback_data="close")]])                                               
             )
         except:
             pass
@@ -83,7 +83,7 @@ async def handle_banned_user_status(bot, message):
         ).days > ban_status["ban_duration"]:
             await db.remove_ban(user_id)
         else:
-            await message.reply_text("Sorry Sir, 😔 You are Banned!.. Please Contact - @DigitalBotz")
+            await message.reply_text("Sᴏʀʀʏ Sɪʀ, 😔 Yᴏᴜ Aʀᴇ Bᴀɴɴᴇᴅ!.. Pʟᴇᴀsᴇ Cᴏɴᴛᴀᴄᴛ - @Cute_Boy_Saravana")
             return
     await message.continue_propagation()
 
