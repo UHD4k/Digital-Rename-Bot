@@ -11,7 +11,7 @@ Rkn_FileRenameBot = web.RouteTableDef()
 
 @Rkn_FileRenameBot.get("/", allow_head=True)
 async def root_route_handler(request):
-    return web.json_response("RknDeveloper")
+    return web.json_response("PMIxOfficials")
 
 async def web_server():
     web_app = web.Application(client_max_size=30000000)
